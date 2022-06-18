@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif; 
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 5px white;
+}
+span{
+    color: #f9004d;
+}
+
+.sub{
+    color:white;
+    font-size: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    align-items: center;
+    margin: 0px 75px 0px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px
+}
+.about-text h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    font-size: 15px;
+    margin-top: 100px;
+    color: white;
+}
+
